@@ -1,5 +1,5 @@
 <?php
-    define( "TITLE", "Honest Click Bait Headlines" );
+    define( "TITLE", "Honest Clickbait Headlines" );
     include("functions.php");
 
     if( isset( $_POST["fix_submit"] ) ) {
@@ -8,17 +8,19 @@
     }
 ?>
 
-<!DOCTYPE html>
+    <!DOCTYPE html>
 
-<html>
+    <html>
 
     <head>
-        
+
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title><?php echo TITLE; ?></title>
+        <title>
+            <?php echo TITLE; ?>
+        </title>
 
         <!-- Bootstrap CSS -->
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
@@ -30,19 +32,21 @@
             <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
         <![endif]-->
     </head>
-    
+
     <body>
         <div class="container">
-            <h1><?php echo TITLE; ?></h1>
-            <p class="lead">Hate click bait? Turn those annoying headlines into realistic and honest ones using this simple program.</p>
-            
+            <h1>
+                <?php echo TITLE; ?>
+            </h1>
+            <p class="lead">Hate clickbait? Turn those annoying headlines into realistic and honest ones using this simple program.</p>
+
             <div class="row">
                 <form class="col-sm-8 col-sm-offset-2" action="" method="post">
                     <textarea placeholder="Paste click bait headline here" class="form-control input-lg" name="clickbait_headline"></textarea><br>
                     <button type="submit" class="btn btn-primary btn-lg pull-right" name="fix_submit">Make honest!</button>
                 </form>
             </div>
-            
+
             <?php
             if ( isset( $_POST["fix_submit"] ) ) {
                 
@@ -64,34 +68,5 @@
         <!-- Bootstrap JS -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     </body>
-</html>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    </html>
