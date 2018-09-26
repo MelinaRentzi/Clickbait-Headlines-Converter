@@ -1,0 +1,28 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    background-color: bisque;
+}
+
+.btn-primary {
+    background-color: #3c763d !important;
+}
+
+form {
+    float: left;
+}
+
+h2 {
+    position: absolute;
+    top: -120px;
+}
+
+li {
+    list-style-image: url("../img/star.svg");
+    font-size: 16px;
+    line-height: 3;
+}
+
+.results {
+    position: absolute;
+    top: 300px;
+}

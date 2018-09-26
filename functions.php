@@ -17,10 +17,22 @@
                 "simple",
                 "trick",
                 "shocked me",
-                "you'll never believe",
+                "you won't believe",
                 "hack",
                 "epic",
-                "unbelievable"
+                "unbelievable",
+                "secrets",
+                "professionals",
+                "how",
+                "worst",
+                "natural",
+                "new diet",
+                "everyone is",
+                "features",
+                "power",
+                "don't know",
+                "signs",
+                "most terrifying"
             );
 
         //  store array of replacement words or phrases
@@ -38,7 +50,19 @@
                 "you won't really be surprised by",
                 "slightly improve",
                 "boring",
-                "normal"
+                "normal",
+                "facts",
+                "so-called professionals",
+                "with hard work",
+                "not-so-bad",
+                "common",
+                "usual diet",
+                "some people are",
+                "common services",
+                "simple",
+                "know",
+                "human qualities",
+                "not that scary"
             );
 
         // use the str_replace() function to replace the words
@@ -63,21 +87,3 @@
     }
 
 ?>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
