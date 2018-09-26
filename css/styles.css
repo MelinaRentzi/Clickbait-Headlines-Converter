@@ -17,6 +17,7 @@ h2 {
 }
 
 li {
+    /* https://geticonjar.com/overview-bytesize/ */
     list-style-image: url("../img/star.svg");
     font-size: 16px;
     line-height: 3;
